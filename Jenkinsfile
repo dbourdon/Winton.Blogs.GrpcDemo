@@ -23,7 +23,7 @@ node {
   buildEnv.inside {
 
     stage ('Build') {
-      sh 'sbt compile'
+      // sh 'sbt compile'
       sh 'sbt sampleClient/universal:stage'
     }
 
